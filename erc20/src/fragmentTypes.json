@@ -1,0 +1,21 @@
+{
+  "__schema": {
+    "types": [
+      {
+        "kind": "INTERFACE",
+        "name": "DecodedLog",
+        "possibleTypes": [{ "name": "ERC20TransferEvent" }, { "name": "ERC20ApprovalEvent" }]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "DecodedTransaction",
+        "possibleTypes": [{ "name": "ERC20Transfer" }, { "name": "ERC20TransferFrom" }, { "name": "ERC20Approve" }]
+      },
+      {
+        "kind": "INTERFACE",
+        "name": "ERC20Transaction",
+        "possibleTypes": [{ "name": "ERC20Transfer" }, { "name": "ERC20TransferFrom" }, { "name": "ERC20Approve" }]
+      }
+    ]
+  }
+}
