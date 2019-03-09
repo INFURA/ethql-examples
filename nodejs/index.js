@@ -1,7 +1,8 @@
 const fetch = require('node-fetch');
 const fs = require('fs');
+const ETHQL_URL = `https://hack-ethql.infura.io`;
 
-fetch(`https://ethql-denver.infura.io`, {
+fetch(ETHQL_URL, {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
