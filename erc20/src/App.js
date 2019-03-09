@@ -23,10 +23,7 @@ const query = gql`
     block(tag: LATEST) {
       number
       transactions {
-        hash
-        nonce
         decoded {
-          standard
           operation
           ... on ERC20Transfer {
             tokenContract {
